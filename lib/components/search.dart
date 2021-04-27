@@ -37,7 +37,7 @@ class _SearchSectionState extends State<SearchSection> {
             padding: const EdgeInsets.only(
                 top: 18.0, left: 10, right: 18, bottom: 18),
             child: Container(
-                padding: EdgeInsets.all(17),
+                padding: EdgeInsets.all(20),
                 height: 60,
                 width: 60,
                 decoration: BoxDecoration(

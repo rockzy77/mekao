@@ -32,14 +32,14 @@ class _HeaderState extends State<Header> {
               text: TextSpan(
                   text: "Hello,",
                   style: GoogleFonts.poppins(
-                      color: Colors.black,
+                      color: Color(0x0c2d48).withOpacity(1),
                       fontSize: 20,
                       fontWeight: FontWeight.w600),
                   children: [
                     TextSpan(
                       text: " Yash Jain",
                       style: GoogleFonts.poppins(
-                          color: Colors.black,
+                          color: Color(0x0c2d48).withOpacity(1),
                           fontSize: 20,
                           fontWeight: FontWeight.normal),
                     ),

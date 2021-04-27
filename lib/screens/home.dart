@@ -38,7 +38,7 @@ class _HomeState extends State<Home> {
                   });
                 },
                 iconSize: 28,
-                color: homeIcon ? Colors.black : Colors.grey,
+                color: homeIcon ? Color(0x0c2d48).withOpacity(1) : Colors.grey,
               ),
               IconButton(
                 icon: Icon(Icons.search),
@@ -51,7 +51,8 @@ class _HomeState extends State<Home> {
                   });
                 },
                 iconSize: 28,
-                color: searchIcon ? Colors.black : Colors.grey,
+                color:
+                    searchIcon ? Color(0x0c2d48).withOpacity(1) : Colors.grey,
               ),
               IconButton(
                 icon: Icon(Icons.navigation),
@@ -64,7 +65,8 @@ class _HomeState extends State<Home> {
                   });
                 },
                 iconSize: 28,
-                color: compassIcon ? Colors.black : Colors.grey,
+                color:
+                    compassIcon ? Color(0x0c2d48).withOpacity(1) : Colors.grey,
               ),
               IconButton(
                 icon: Icon(Icons.settings),
@@ -77,7 +79,7 @@ class _HomeState extends State<Home> {
                   });
                 },
                 iconSize: 28,
-                color: setIcon ? Colors.black : Colors.grey,
+                color: setIcon ? Color(0x0c2d48).withOpacity(1) : Colors.grey,
               ),
             ],
           ),
@@ -89,12 +91,11 @@ class _HomeState extends State<Home> {
             Header(),
             SearchSection(),
             HRList(),
-            BodyList(),
             Align(
               child: Padding(
                 padding: const EdgeInsets.only(left: 18.0, top: 8),
                 child: Text(
-                  "Category",
+                  "Categories",
                   style: GoogleFonts.poppins(
                       color: Colors.black,
                       fontSize: 18,
